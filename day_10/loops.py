@@ -2897,3 +2897,4 @@ from operator import itemgetter
 top_countries=sorted(countries_data,key=itemgetter('population'),reverse=True)
 for i in top_countries[:10]:
     print(i['name'])
+    
